@@ -4,11 +4,11 @@
 
 | Symbols         | Borders        | Growth |
 | --------------- | -------------- | ------ |
-| Θ (Big Theta)   | Top and Bottom | =      |
-| O (Big O)       | Top            | <=     |
-| o (Small O)     | Top            | <      |
-| Ω (Big Omega)   | Bottom         | >=     |
-| ω (Small Omega) | Bottom         | >      |
+| Θ (Big Theta)   | Top and Bottom | =n     |
+| O (Big O)       | Top            | <=n    |
+| o (Small O)     | Top            | <n     |
+| Ω (Big Omega)   | Bottom         | >=n    |
+| ω (Small Omega) | Bottom         | >n     |
 
 ## Complexity
 
