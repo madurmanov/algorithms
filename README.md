@@ -26,14 +26,14 @@
 
 ## Data Structures
 
-- Array
-- Associative Array
-- Stack
-- Queue
-- Singly Linked List
-- Doubly Linked List
-- Hash Table
-- Binary Search Tree (BST)
+- [Array](structures/array.md)
+- [Associative Array](structures/associativeArray.md)
+- [Stack](structures/stack.md)
+- [Queue](structures/queue.md)
+- [Singly Linked List](structures/signlyLinkedList.md)
+- [Doubly Linked List](structures/doublyLinkedList.md)
+- [Hash Table](structures/hashTable.md)
+- [Binary Search Tree (BST)](structures/binarySearchTree.md)
 
 | Name               |        Access         |        Search         |        Insert         |        Delete         |
 | ------------------ | :-------------------: | :-------------------: | :-------------------: | :-------------------: |
@@ -49,7 +49,7 @@
 ## Algorithms
 
 - [Linear Search](algorithms/linearSearch.md)
-- Binary Search
-- Bubble Sort
-- Insertion Sort
-- Selection Sort
+- [Binary Search](algorithms/binarySearch.md)
+- [Bubble Sort](algorithms/bubbleSort.md)
+- [Insertion Sort](algorithms/insertionSort.md)
+- [Selection Sort](algorithms/selectionSort.md)
