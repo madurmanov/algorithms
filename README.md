@@ -30,3 +30,11 @@
 - Queue
 - Hash Table
 - Binary Tree
+
+## Algorithms
+
+- [Linear Search](algorithms/linearSearch.md)
+- Binary Search
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
