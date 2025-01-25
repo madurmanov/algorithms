@@ -12,13 +12,17 @@
 
 ## Complexity
 
-- O(1)
-- O(logn)
-- O(n)
-- O(nlogn)
-- O(n^2)
-- O(2^n)
-- O(n!)
+| Name         | Notation |
+| ------------ | :------: |
+| Constant     |   O(1)   |
+| Logarithmic  | O(logn)  |
+| Linear       |   O(n)   |
+| Linearithmic | O(nlogn) |
+| Quadratic    |  O(n^2)  |
+| Exponential  |  O(2^n)  |
+| Factorial    |  O(n!)   |
+
+![Complexity Chart](complexity.png)
 
 ## Data Structures
 
