@@ -27,7 +27,6 @@
 ## Data Structures
 
 - [Array](structures/array.md)
-- [Associative Array](structures/associativeArray.md)
 - [Stack](structures/stack.md)
 - [Queue](structures/queue.md)
 - [Singly Linked List](structures/signlyLinkedList.md)
@@ -38,7 +37,6 @@
 | Name               |        Access         |        Search         |        Insert         |        Delete         |
 | ------------------ | :-------------------: | :-------------------: | :-------------------: | :-------------------: |
 | Array              |         O(1)          |         O(n)          |      Ω(1) / O(n)      |      Ω(1) / O(n)      |
-| Associative Array  |         O(1)          |      Θ(1) / O(n)      |      Θ(1) / O(n)      |      Θ(1) / O(n)      |
 | Stack              |         O(n)          |         O(n)          |         O(1)          |         O(1)          |
 | Queue              |         O(n)          |         O(n)          |         O(1)          |         O(1)          |
 | Singly Linked List |      Ω(1) / O(n)      |      Ω(1) / O(n)      |         O(1)          |         O(1)          |
