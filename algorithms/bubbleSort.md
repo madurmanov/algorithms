@@ -12,20 +12,19 @@ Bubble Sort is a simple algorithm that performs a sequential comparing of adjace
 
 ## Complexity
 
-- **Best Case: Ω(n)** — the array is already sorted, requiring only one iteration to verify.
-- **Average Case: Θ(n^2)** — elements are arranged randomly.
+- **Best Case: Ω(n)** — the array is already sorted.
+- **Average Case: Θ(n^2)** — elements are in random order.
 - **Worst Case: O(n^2)** — the array is sorted in reverse order.
-- **Memory: O(1)** — requires only a fixed number of variables.
+- **Memory: O(1)** — no additional memory is required.
 
 ## Advantages
 
-- **Simple Implementation:** the algorithm is extremely simple and intuitive.
-- **Stable Sort:** it preserves the relative order of elements with equal values.
-- **Small Arrays:** works well for small dataset due to its simplicity.
+- **Efficient for Small Arrays:** works well for small dataset.
+- **Stable Sort:** relative order of equal elements.
 
 ## Disadvantages
 
-- **Poor Performance:** highly inefficient for large dataset.
+- **Inefficient for Large Arrays:** the quadratic complexity makes it slow for large dataset.
 - **Redundant Comparisons:** performs unnecessary operations even on partially sorted arrays.
 
 ## Use Cases

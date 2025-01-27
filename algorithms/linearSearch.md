@@ -20,10 +20,9 @@ Linear Search is a simple algorithm that performs a sequeantial checking of all 
 
 ## Advantages
 
-- **Simple Implementation:** the algorithm is extremely simple and intuitive.
+- **Simple Implementation:** the algorithm is simple and intuitive.
 - **No Data Requirements:** works with unsorted data.
 - **Supports Multiple Data Structures:** can be used with arrays, lists and other linear data structures.
-- **Low Memory Overhead:** memory complexity is O(1), as only one variable is used for iteration.
 
 ## Disadvantages
 

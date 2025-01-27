@@ -17,13 +17,12 @@ Binary Search is an efficient searching algorithm used to find an element in a s
 
 - **Best Case: Ω(1)** — if the target value is at the middle.
 - **Average Case: Θ(logn)** — the array is halved at each iteration.
-- **Worst Case: O(logn)** — if the target value is absent or located at the end of the array.
-- **Memory: O(1)** — requires only a fixed number of variables for pointers.
+- **Worst Case: O(logn)** — the element is at the end of the array or not present.
+- **Memory: O(1)** — no additional memory is required.
 
 ## Advantages
 
 - **Efficient for Large Arrays:** performs much faster than Linear Search on sorted arrays.
-- **Low Memory Usage:** works in-place without requiring additional data structures.
 
 ## Disadvantages
 
