@@ -2,7 +2,7 @@
 
 Array is a data structure used to store an ordered collection of elements. The elements in an array can be of any type: numbers, strings, objects, functions or other arrays. In JavaScript arrays are objects, making them flexible.
 
-## Features
+## Characteristics
 
 - **Dynamic Size:** automatically resize when elements are added or removed.
 - **Indexed Elements:** elements are stored by index, starting at `0`.

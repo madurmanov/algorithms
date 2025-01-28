@@ -78,10 +78,6 @@ class Stack {
     return this.items.pop();
   }
 
-  all() {
-    return this.items;
-  }
-
   linearSearch(target) {
     for (let i = 0; i < this.items.length; i++) {
       if (this.items[i] === target) {
@@ -89,6 +85,10 @@ class Stack {
       }
     }
     return -1;
+  }
+
+  _all() {
+    return this.items;
   }
 }
 
@@ -98,7 +98,7 @@ stack.push(4);
 stack.push(6);
 stack.push(8);
 
-console.log("Stack:", stack.all());
+console.log("Stack:", stack._all());
 console.log("Search 8:", stack.linearSearch(8)); // Output: 3
 console.log("Search 9:", stack.linearSearch(9)); // Output: -1
 ```
@@ -119,10 +119,6 @@ class Queue {
     return this.items.shift();
   }
 
-  all() {
-    return this.items;
-  }
-
   linearSearch(target) {
     for (let i = 0; i < this.items.length; i++) {
       if (this.items[i] === target) {
@@ -130,6 +126,10 @@ class Queue {
       }
     }
     return -1;
+  }
+
+  _all() {
+    return this.items;
   }
 }
 
@@ -139,7 +139,7 @@ queue.enqueue(4);
 queue.enqueue(6);
 queue.enqueue(8);
 
-console.log("Queue:", queue.all());
+console.log("Queue:", queue._all());
 console.log("Search 8:", queue.linearSearch(8)); // Output: 3
 console.log("Search 9:", queue.linearSearch(9)); // Output: -1
 ```
@@ -172,16 +172,6 @@ class SinglyLinkedList {
     }
   }
 
-  all() {
-    let current = this.head;
-    const items = [];
-    while (current) {
-      items.push(current.value);
-      current = current.next;
-    }
-    return items;
-  }
-
   linearSearch(target) {
     let current = this.head;
     let index = 0;
@@ -194,6 +184,16 @@ class SinglyLinkedList {
     }
     return -1;
   }
+
+  _all() {
+    let current = this.head;
+    const items = [];
+    while (current) {
+      items.push(current.value);
+      current = current.next;
+    }
+    return items;
+  }
 }
 
 const list = new SinglyLinkedList();
@@ -202,7 +202,7 @@ list.append(4);
 list.append(6);
 list.append(8);
 
-console.log("List:", list.all());
+console.log("List:", list._all());
 console.log("Search 8:", list.linearSearch(8)); // Output: 3
 console.log("Search 9:", list.linearSearch(9)); // Output: -1
 ```
