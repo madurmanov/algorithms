@@ -21,11 +21,11 @@ Queue is an abstract data structure that operates on the FIFO principle (First I
 
 ## Operations
 
-1. **Enqueue:** adds an element to the end of the queue.
-2. **Dequeue:** removes an element from the front the queue and returns it.
-3. **Front:** returns the front element without removing it.
-4. **isEmpty:** check if the queue is empty.
-5. **Size:** returns the number of elements in the queue.
+- **Enqueue:** adds an element to the end of the queue.
+- **Dequeue:** removes an element from the front the queue and returns it.
+- **Front:** returns the front element without removing it.
+- **isEmpty:** check if the queue is empty.
+- **Size:** returns the number of elements in the queue.
 
 ## Example Code
 

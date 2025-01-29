@@ -21,11 +21,11 @@ Stack is an abstract data structure that operates on the LIFO principle (Last In
 
 ## Operations
 
-1. **Push:** adds an element to the top of stack.
-2. **Pop:** removes the top element from the stack and returns it.
-3. **Peek:** returns the top element without removing it.
-4. **isEmpty:** checks if the stack is empty.
-5. **Size:** returns the number of elements in the stack.
+- **Push:** adds an element to the top of stack.
+- **Pop:** removes the top element from the stack and returns it.
+- **Peek:** returns the top element without removing it.
+- **isEmpty:** checks if the stack is empty.
+- **Size:** returns the number of elements in the stack.
 
 ## Example Code
 
