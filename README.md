@@ -1,5 +1,22 @@
 # Algorithms and Data Structures
 
+An **algorithm** is a finite sequence of well-defined steps designed to solve a specific problem or compute a result. Algorithms can be represented as text, pseudocode, flowcharts or program code. They must exhibit **finiteness**, **determinism**, **effectiveness** and have **input/output data**.
+
+**Key Properties of Algorithms:**
+
+- **Finiteness** — must complete in a finite number of steps.
+- **Determinism** — each step must be precisely defined.
+- **Effectiveness** — must produce a correct result.
+- **Input/Output Data** — takes one or more inputs and produces one or more outputs.
+
+A **data structure** is a way of organizing, storing and managing data in computer memory to enable efficient access and modification. Different data structures are optimized for different operations, such as insertion, deletion, search and sorting.
+
+**Key Properties of Data Structures:**
+
+- **Organization** — defines how data is stored (linear, hierarchical, etc.).
+- **Efficiency** — allows basic operations to be performed in optimal time.
+- **Flexibility** — ability to dynamically change the size or structure of data.
+
 ## Asymptotic growth notations
 
 | Symbols         | Borders        | Growth |
@@ -19,6 +36,7 @@
 | Linear       |   O(n)   |
 | Linearithmic | O(nlogn) |
 | Quadratic    |  O(n^2)  |
+| Cubic        |  O(n^3)  |
 | Exponential  |  O(2^n)  |
 | Factorial    |  O(n!)   |
 
