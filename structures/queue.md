@@ -2,7 +2,7 @@
 
 Queue is an abstract data structure that operates on the FIFO principle (First In, First Out). Imagine line of people at a store: the first person to join the line is the first to be served and the last person must wait.
 
-## Characteristics
+## Properties
 
 - **Adding:** elements are added to the end of queue.
 - **Removing:** elements are removed from the front of the queue.
@@ -127,10 +127,7 @@ class Queue {
 }
 
 const queue = new Queue();
-queue.enqueue(2);
-queue.enqueue(4);
-queue.enqueue(6);
-queue.enqueue(8);
+[2, 4, 6, 8].forEach((value) => queue.enqueue(value));
 
 console.log("Queue:", queue._all()); // Output: [2, 4, 6, 8]
 console.log("Size:", queue.size()); // Output: 4

@@ -2,7 +2,7 @@
 
 Doubly Linked List is a data structure consisting of nodes, where each node contains value (data stored in the node), next pointer (reference to the next node) and previous pointer (reference to the previous node). Unlike a singly linked list, each node is aware of both its next and previous neighbors that enables traversal in both forward and backward directions.
 
-## Characteristics
+## Properties
 
 - **Bidirectional Navigation:** nodes contains references to both the next and previous nodes.
 - **Flexible Insertion and Deletion:** nodes can be added or removed from any position without full traversal.
@@ -168,17 +168,25 @@ const list = new SinglyLinkedList();
 
 list.insertAtBeginning(2);
 console.log("Insert at beginning 2:", list.traverseForward()); // Output: [2]
+
 list.insertAtEnd(6);
 console.log("Insert at end 6:", list.traverseForward()); // Output: [2, 6]
+
 list.insertAtPosition(4, 1);
 console.log("Insert at position (4, 1):", list.traverseForward()); // Output: [2, 4, 6]
+
 console.log("Find 4:", list.find(4)); // Output: { value: 4; next: { value: 6; next: null; prev: {}; }; prev: { value: 2; next: {}; prev: null; }; }
+
 console.log("Traverse forward:", list.traverseForward()); // Output: [2, 4, 6]
+
 console.log("Traverse backward:", list.traverseBackward()); // Output: [6, 4, 2]
+
 list.removeFirst();
 console.log("Remove first:", list.traverseForward()); // Output: [4, 6]
+
 list.removeLast();
 console.log("Remove last:", list.traverseForward()); // Output: [4]
+
 list.removeValue(4);
 console.log("Remove value 4:", list.traverseForward(4)); // Output: []
 ```

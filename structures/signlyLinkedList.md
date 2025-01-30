@@ -2,7 +2,7 @@
 
 Singly Linked List is a data structure consisting of a sequence of nodes, where each nodes contains value (data stored in the node) and pointer (reference to the next node). The key feature of a singly linked list is that it doesn't provide direct access to elements via an index. Instead, elements are accessed sequentially, starting from the head node.
 
-## Characteristics
+## Properties
 
 - **Dynamic Structure:** the list size can grow or shrink dynamically by adding or removing nodes.
 - **Unidirectional Navigation:** each node points only the next node.
@@ -150,16 +150,23 @@ const list = new SinglyLinkedList();
 
 list.insertAtBeginning(2);
 console.log("Insert at beginning 2:", list.traverseForward()); // Output: [2]
+
 list.insertAtEnd(6);
 console.log("Insert at end 6:", list.traverseForward()); // Output: [2, 6]
+
 list.insertAtPosition(4, 1);
 console.log("Insert at position (4, 1):", list.traverseForward()); // Output: [2, 4, 6]
+
 console.log("Find 4:", list.find(4)); // Output: { value: 4; next: { value: 6; next: null; }; }
+
 console.log("Traverse forward:", list.traverseForward()); // Output: [2, 4, 6]
+
 list.removeFirst();
 console.log("Remove first:", list.traverseForward()); // Output: [4, 6]
+
 list.removeLast();
 console.log("Remove last:", list.traverseForward()); // Output: [4]
+
 list.removeValue(4);
 console.log("Remove value 4:", list.traverseForward(4)); // Output: []
 ```

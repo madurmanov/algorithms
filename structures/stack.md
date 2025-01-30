@@ -2,7 +2,7 @@
 
 Stack is an abstract data structure that operates on the LIFO principle (Last In, First Out). Imagine a stack of plates: you can only add a new plate to the top and remove a plate from the top.
 
-## Characteristics
+## Properties
 
 - **Adding:** elements are added only to the top of the stack.
 - **Removing:** only the top element can be removed.
@@ -126,10 +126,7 @@ class Stack {
 }
 
 const stack = new Stack();
-stack.push(2);
-stack.push(4);
-stack.push(6);
-stack.push(8);
+[2, 4, 6, 8].forEach((value) => stack.push(value));
 
 console.log("Stack:", stack._all()); // Output: [2, 4, 6, 8]
 console.log("Size:", stack.size()); // Output: 4

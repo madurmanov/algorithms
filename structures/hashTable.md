@@ -2,7 +2,7 @@
 
 Hash Table is a data structure that stores key-value pairs and allows for fast data access using a hash function. The hash function takes a key as input and returns an index where the corresponding value is stored in an array.
 
-## Characteristics
+## Properties
 
 - **Fast Data Access:** lookup, insertion and deletion operations have an average time complexity of O(1).
 - **Hashing:** a hash function maps keys to array indices.
@@ -104,13 +104,18 @@ class HashTable {
 const hashTable = new HashTable();
 
 hashTable.set("name", "Alice");
+console.log("Set name Alice:", hashTable.get("name")); // Output: Alice
+
 hashTable.set("age", 18);
-console.log(hashTable.get("name")); // Output: Alice
-console.log(hashTable.get("age")); // Output: 18
+console.log("Set age 18:", hashTable.get("age")); // Output: 18
+
 hashTable.set("age", 19);
-console.log(hashTable.get("age")); // Output: 19
-console.log(hashTable.keys()); // Output: ["name", "age"]
-console.log(hashTable.values()); // Output: ["Alice", 19]
+console.log("Set age 19:", hashTable.get("age")); // Output: 19
+
+console.log("Keys:", hashTable.keys()); // Output: ["name", "age"]
+
+console.log("Values:", hashTable.values()); // Output: ["Alice", 19]
+
 hashTable.remove("age");
-console.log(hashTable.get("age")); // Output: undefined
+console.log("Remove age:", hashTable.get("age")); // Output: undefined
 ```
