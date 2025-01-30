@@ -46,8 +46,15 @@
 
 ## Algorithms
 
-- [Linear Search](algorithms/linearSearch.md)
-- [Binary Search](algorithms/binarySearch.md)
-- [Bubble Sort](algorithms/bubbleSort.md)
-- [Insertion Sort](algorithms/insertionSort.md)
-- [Selection Sort](algorithms/selectionSort.md)
+- **Search:**
+  - [Linear Search](algorithms/linearSearch.md)
+  - [Binary Search](algorithms/binarySearch.md)
+  - [Deep-First Search](algorithms/deepFirstSearch.md)
+  - [Breadth-First Search](algorithms/breadthFirstSearch.md)
+- **Sort:**
+  - [Bubble Sort](algorithms/bubbleSort.md)
+  - [Insertion Sort](algorithms/insertionSort.md)
+  - [Selection Sort](algorithms/selectionSort.md)
+  - [Merge Sort](algorithms/mergeSort.md)
+  - [Quick Sort](algorithms/quickSort.md)
+  - [Heap Sort](algorithms/heapSort.md)
