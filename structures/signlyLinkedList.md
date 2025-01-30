@@ -1,6 +1,6 @@
 # Singly Linked List
 
-Singly Linked List is a data structure consisting of a sequence of nodes, where each nodes contains value (actual data stored in the node) and pointer (reference to the next node). The key feature of a singly linked list is that it doesn't provide direct access to elements via an index. Instead, elements are accessed sequentially, starting from the head node.
+Singly Linked List is a data structure consisting of a sequence of nodes, where each nodes contains value (data stored in the node) and pointer (reference to the next node). The key feature of a singly linked list is that it doesn't provide direct access to elements via an index. Instead, elements are accessed sequentially, starting from the head node.
 
 ## Characteristics
 
@@ -154,7 +154,8 @@ list.insertAtEnd(6);
 console.log("Insert at end 6:", list.traverseForward()); // Output: [2, 6]
 list.insertAtPosition(4, 1);
 console.log("Insert at position (4, 1):", list.traverseForward()); // Output: [2, 4, 6]
-console.log("Find 4:", list.find(4)); // Output: { value: 4; next: { value: 6; next: null; }}
+console.log("Find 4:", list.find(4)); // Output: { value: 4; next: { value: 6; next: null; }; }
+console.log("Traverse forward:", list.traverseForward()); // Output: [2, 4, 6]
 list.removeFirst();
 console.log("Remove first:", list.traverseForward()); // Output: [4, 6]
 list.removeLast();
