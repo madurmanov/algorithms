@@ -132,7 +132,7 @@ queue.enqueue(4);
 queue.enqueue(6);
 queue.enqueue(8);
 
-console.log("queue:", queue._all()); // Output: [2, 4, 6, 8]
+console.log("Queue:", queue._all()); // Output: [2, 4, 6, 8]
 console.log("Size:", queue.size()); // Output: 4
 console.log("Dequeue:", queue.dequeue()); // Output: 2
 console.log("Size:", queue.size()); // Output: 3
