@@ -25,12 +25,12 @@ Binary Search Tree is a data structure that consists of nodes, where each node c
 
 ## Operations
 
-- **Insert** .
-- **Remove** .
-- **Search** .
-- **TraverseInorder** .
-- **TraversePreorder** .
-- **TraversePostorder** .
+- **Insert**
+- **Remove**
+- **Search**
+- **TraverseInorder**
+- **TraversePreorder**
+- **TraversePostorder**
 
 ## Example Code
 

@@ -19,7 +19,7 @@ Hash Table is a data structure that stores key-value pairs and allows for fast d
 
 ## Operations
 
-- **Set**.
+- **Set**
 - **Get**
 - **Remove**
 - **Keys**
