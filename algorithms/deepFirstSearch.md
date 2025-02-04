@@ -54,6 +54,7 @@ function dfs(node, visited = new Set()) {
   }
 
   visited.add(node);
+  console.log(node);
 
   for (let neighbor of graph[node]) {
     dfs(neighbor, visited);
@@ -62,5 +63,5 @@ function dfs(node, visited = new Set()) {
   return visited;
 }
 
-dfs("A").forEach((value) => console.log(value)); // Output: A, B, D, E, F, C
+dfs("A"); // Output: A, B, D, E, F, C
 ```
