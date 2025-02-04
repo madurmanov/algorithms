@@ -81,3 +81,9 @@ A **data structure** is a way of organizing, storing and managing data in comput
   - [Merge Sort](algorithms/mergeSort.md)
   - [Quick Sort](algorithms/quickSort.md)
   - [Heap Sort](algorithms/heapSort.md)
+
+## Problems
+
+1. [Two Sum](problems/twoSum.md)
+   - **Description:** given an array of numbers and a target number, find a pair of indices such that the sum of the values equals the target.
+   - **What It Tests:** knowledge of hash tables and time optimization (achieving O(n) solution).
