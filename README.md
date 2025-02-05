@@ -87,3 +87,6 @@ A **data structure** is a way of organizing, storing and managing data in comput
 1. [Two Sum](problems/twoSum.md)
    - **Description:** given an array of numbers and a target number, find a pair of indices such that the sum of the values equals the target.
    - **What It Tests:** knowledge of hash tables and time optimization (achieving O(n) solution).
+2. [Reverse a Linked List](problems/reverseLinkedList.md)
+   - **Description:** given a singly linked list, reverse it so that the last element becomes the first.
+   - **What It Tests:** ability to work with linked data structures and understanding pointers.
