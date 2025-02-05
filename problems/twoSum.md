@@ -36,3 +36,12 @@ const target = 5;
 const result = twoSum(nums, target);
 console.log("Indices of the numbers that sum up to", target, ":", result);
 ```
+
+## Explanation
+
+1. **Initialization:** an object `numToIndex` is created to store numbers as keys and their indices as values.
+2. **Iteration:** a `for` loop is used to iterate over the array `nums`, obtaining the index `i` and the value `num` at each iteration.
+   - For each number, the complement is calculated as `target - num`.
+   - If the complement exists in `numToIndex`, it means that a pair of numbers adding up to the target has been found. The function returns the array `[numToIndex[complement], i]` with the corresponding indices.
+   - If the complement is not found, the current number and its index are saved in the `numToIndex` object.
+3. **Return Result:** if the loop completes without finding a pair, the function returns an empty array.
