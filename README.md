@@ -90,3 +90,6 @@ A **data structure** is a way of organizing, storing and managing data in comput
 2. [Reverse a Linked List](problems/reverseLinkedList.md)
    - **Description:** given a singly linked list, reverse it so that the last element becomes the first.
    - **What It Tests:** ability to work with linked data structures and understanding pointers.
+3. [Detect Cycle in a Linked List](problems/cycleLinkedList.md)
+   - **Description:** determine if a linked list contains a cycle.
+   - **What It Tests:** application of Floyd's cycle detection algorithm (the "tortoise and the hare"), pointer manipulation, and loop handling.

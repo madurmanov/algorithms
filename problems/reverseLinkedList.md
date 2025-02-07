@@ -29,7 +29,7 @@ function reverseLinkedList(head) {
   return prev;
 }
 
-// Example usage:
+// Create nodes for the linked list.
 let node3 = new ListNode(3);
 let node2 = new ListNode(2, node3);
 let node1 = new ListNode(1, node2);
