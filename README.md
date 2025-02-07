@@ -96,3 +96,6 @@ A **data structure** is a way of organizing, storing and managing data in comput
 4. [Merge Two Sorted Lists](problems/mergeTwoLists.md)
    - **Description:** given two sorted lists, merge them into one sorted list.
    - **What It Tests:** ability to work with iterators/pointers, and understanding merging techniques in sorting.
+5. [Binary Search](problems/binarySearch.md)
+   - **Description:** implement the binary search algorithm on a sorted array.
+   - **What It Tests:** understanding of algorithmic complexity O(logn) and both recursive and iterative approaches.
