@@ -90,12 +90,45 @@ A **data structure** is a way of organizing, storing and managing data in comput
 2. [Reverse a Linked List](problems/reverseLinkedList.md)
    - **Description:** given a singly linked list, reverse it so that the last element becomes the first.
    - **What It Tests:** ability to work with linked data structures and understanding pointers.
-3. [Detect Cycle in a Linked List](problems/cycleLinkedList.md)
+3. [Detect Cycle in a Linked List](problems/detectCycleLinkedList.md)
    - **Description:** determine if a linked list contains a cycle.
    - **What It Tests:** application of Floyd's cycle detection algorithm (the "tortoise and the hare"), pointer manipulation, and loop handling.
-4. [Merge Two Sorted Lists](problems/mergeTwoLists.md)
+4. [Merge Two Sorted Lists](problems/mergeTwoSortedLists.md)
    - **Description:** given two sorted lists, merge them into one sorted list.
    - **What It Tests:** ability to work with iterators/pointers, and understanding merging techniques in sorting.
 5. [Binary Search](problems/binarySearch.md)
    - **Description:** implement the binary search algorithm on a sorted array.
    - **What It Tests:** understanding of algorithmic complexity O(logn) and both recursive and iterative approaches.
+6. [Sorting Algorithms](problems/sortingAlgorithms.md)
+   - **Description:** implement algorithms such as QuickSort, MergeSort, or Bubble Sort.
+   - **What It Tests:** understanding of sorting principles, problem partitioning, recursion, and time complexity.
+7. [Longest Substring Without Repeating Characters](problems/longestSubstringWithoutRepeatingCharacters.md)
+   - **Description:** find the length of the longest substring without repeating characters.
+   - **What It Tests:** string manipulation, application of the "sliding window" technique, and optimization skills.
+8. [Longest Common Subsequence](problems/longestCommonSubsequence.md)
+   - **Description:** find the length of the longest common subsequence for two strings.
+   - **What It Tests:** dynamic programming, and optimization in terms of memory and time.
+9. [Valid Parentheses](problems/validParentheses.md)
+   - **Description:** determine if the parentheses in a string are correctly paired (e.g., “()[]{}”).
+   - **What It Tests:** use of stacks to verify matching pairs.
+10. [Dynamic Programming](problems/dynamicProgramming.md)
+    - **Description:** classic problems such as:
+      - **Fibonacci:** calculate Fibonacci numbers using memoization or tabulation.
+      - **Coin Change:** determine the minimum number of coins required for a given amount.
+      - **Climbing Stairs:** count the number of ways to climb a staircase taking 1 or 2 steps at a time.
+    - **What It Tests:** ability to break down a problem into subproblems and optimally use resources.
+11. [Longest Palindromic Substring](problems/longestPalindromicSubstring.md)
+    - **Description:** find the longest substring that is a palindrome.
+    - **What It Tests:** combination of string manipulation and dynamic programming or expanding from the center.
+12. [Find the Median of Two Sorted Arrays](problems/findMedianOfTwoSortedArrays.md)
+    - **Description:** given two sorted arrays, find the median of the merged array.
+    - **What It Tests:** ability to use binary search in an unusual context and optimize the solution to O(log(min(m, n))).
+13. [Lowest Common Ancestor](problems/lowestCommonAncestor.md)
+    - **Description:** in a binary tree, find the lowest common ancestor of two nodes.
+    - **What It Tests:** working with trees, understanding recursion, and tree traversal techniques.
+14. [Graph Traversal](problems/graphTraversal.md)
+    - **Description:** implement graph traversal algorithms such as Depth-First Search (DFS) and Breadth-First Search (BFS)..
+    - **What It Tests:** ability to work with graph data structures, and understanding queues and stacks.
+15. [Anagram Check](problems/anagramCheck.md)
+    - **Description:** determine whether two strings are anagrams of each other.
+    - **What It Tests:** working with hash tables, sorting strings or arrays, and comparing character counts.
