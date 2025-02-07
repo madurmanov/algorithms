@@ -93,3 +93,6 @@ A **data structure** is a way of organizing, storing and managing data in comput
 3. [Detect Cycle in a Linked List](problems/cycleLinkedList.md)
    - **Description:** determine if a linked list contains a cycle.
    - **What It Tests:** application of Floyd's cycle detection algorithm (the "tortoise and the hare"), pointer manipulation, and loop handling.
+4. [Merge Two Sorted Lists](problems/mergeTwoLists.md)
+   - **Description:** given two sorted lists, merge them into one sorted list.
+   - **What It Tests:** ability to work with iterators/pointers, and understanding merging techniques in sorting.
