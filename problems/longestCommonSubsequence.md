@@ -1,5 +1,7 @@
 # Longest Common Subsequence
 
+## Solution
+
 ```js
 /**
  * Computes the length of the longest common subsequence (LCS) of two strings.
@@ -49,3 +51,8 @@ console.log("Length of the longest common subsequence:", lcsLength); // Output: 
    - If `text1[i - 1]` equals `text2[j - 1]`, it means that this character is part of the LCS. Thus, update `dp[i][j]` to be `dp[i - 1][j - 1] + 1`.
    - If they do not match, take the maximum value from either ignoring the current character of `text1` or `text2`. That is, `dp[i][j]` is set to `Math.max(dp[i - 1][j], dp[i][j - 1])`.
 3. **Return Result:** after filling out the table, the bottom-right cell `dp[m][n]` contains the length of the longest common subsequence between the two strings.
+
+## Complexity
+
+- **Time:** O(mn)
+- **Memory:** O(mn)

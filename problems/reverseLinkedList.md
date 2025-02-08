@@ -1,5 +1,7 @@
 # Reverse a Linked List
 
+## Solution
+
 ```js
 // Definition for a singly-linked list node.
 function ListNode(val, next) {
@@ -54,3 +56,8 @@ console.log("Reversed list:", result);
    - Reverse the pointer of the current node by setting `curr.next` to `prev`.
    - Update the variables: move `prev` to `curr` and `curr` to the saved next node.
 3. **Return Result:** once `curr` becomes `null` (i.e., the entire list has been traversed), `prev` will point to the new head of the reversed list.
+
+## Complexity
+
+- **Time:** O(n)
+- **Memory:** O(1)

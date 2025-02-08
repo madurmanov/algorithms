@@ -1,5 +1,7 @@
 # Dynamic Programming
 
+## Solution
+
 ```js
 /**
  * Determines the minimum number of coins needed to make up a given amount.
@@ -51,3 +53,8 @@ console.log("Minimum coins needed:", result); // Output: 3 (11 can be formed by 
 3. **Return Result:**
    - After filling in the DP table, if `dp[amount]` remains `Infinity`, it means that it is not possible to form the target amount with the given coin denominations, and the function returns `-1`.
    - Otherwise, `dp[amount]` is returned, representing the minimum number of coins needed.
+
+## Complexity
+
+- **Time:** O(nm)
+- **Memory:** O(n)

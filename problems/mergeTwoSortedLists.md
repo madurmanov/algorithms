@@ -1,5 +1,7 @@
 # Merge Two Sorted Lists
 
+## Solution
+
 ```js
 // Definition for a singly-linked list node.
 function ListNode(val, next) {
@@ -76,3 +78,8 @@ console.log("Merged Sorted List:", mergedListValues.join(", ")); // Output: 1, 2
    - The `current` pointer is advanced to point to the newly attached node.
 4. **Handling Remaining Nodes:** If one of the lists still has nodes after the main loop, we attach the remainder of that list to the merged list. Since both input lists are already sorted, the remaining nodes are also in order.
 5. **Return Result:** Finally, we return `dummy.next`, which is the head of the newly merged sorted list.
+
+## Complexity
+
+- **Time:** O(n+m)
+- **Memory:** O(1)

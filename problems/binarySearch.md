@@ -1,5 +1,7 @@
 # Binary Search
 
+## Solution
+
 ```js
 /**
  * Performs binary search on a sorted array to find the index of a target value.
@@ -50,3 +52,8 @@ console.log("Index of", targetValue, "is:", index); // Output: Index of 7 is: 3
    - If `nums[mid]` is less than the target, it means the target must be in the right half of the array; therefore, update `left` to `mid + 1`.
    - If `nums[mid]` is greater than the target, update `right` to `mid - 1` to search in the left half.
 3. **Return Result:** if the loop finishes without finding the target, the function returns `-1` to indicate that the target is not present in the array.
+
+## Complexity
+
+- **Time:** O(logn)
+- **Memory:** O(1)

@@ -1,5 +1,7 @@
 # Detect Cycle in a Linked List
 
+## Solution
+
 ```js
 // Definition for a singly-linked list node.
 function ListNode(val, next) {
@@ -58,3 +60,8 @@ console.log("Does the linked list have a cycle:", hasCycle(node1)); // Output: f
    - The `fast` pointer moves two nodes at a time (`fast = fast.next.next`).
 3. **Cycle Detection:** if at any point the `slow` pointer equals the `fast` pointer, it indicates that the linked list has a cycle, and the function returns `true`.
 4. **No Cycle:** if the loop terminates because `fast` or `fast.next` becomes `null`, it means the linked list does not have a cycle, and the function returns `false`.
+
+## Complexity
+
+- **Time:** O(n)
+- **Memory:** O(1)

@@ -1,5 +1,7 @@
 # Longest Substring Without Repeating Characters
 
+## Solution
+
 ```js
 /**
  * Finds the length of the longest substring without repeating characters.
@@ -56,3 +58,8 @@ console.log(
    - The current character's index is updated in `charIndexMap`.
    - The length of the current window is calculated as `i - start + 1`, and `maxLength` is updated if this value is greater than the previous maximum.
 5. **Return Result:** after processing all characters, the function returns `maxLength`, which represents the length of the longest substring without repeating characters.
+
+## Complexity
+
+- **Time:** O(n)
+- **Memory:** O(min(n,m))

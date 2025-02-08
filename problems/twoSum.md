@@ -1,5 +1,7 @@
 # Two Sum
 
+## Solution
+
 ```js
 /**
  * Function that returns the indices of the two numbers in the array `nums` whose sum equals the target.
@@ -45,3 +47,8 @@ console.log("Indices of the numbers that sum up to", target, ":", result);
    - If the complement exists in `numToIndex`, it means that a pair of numbers adding up to the target has been found. The function returns the array `[numToIndex[complement], i]` with the corresponding indices.
    - If the complement is not found, the current number and its index are saved in the `numToIndex` object.
 3. **Return Result:** if the loop completes without finding a pair, the function returns an empty array.
+
+## Complexity
+
+- **Time:** O(n)
+- **Memory:** O(n)

@@ -1,5 +1,7 @@
 # Sorting Algorithms
 
+## Solution
+
 ```js
 /**
  * QuickSort algorithm to sort an array of numbers.
@@ -50,3 +52,8 @@ console.log("Sorted Array:", sortedArray); // Output: [1, 2, 3, 4, 5, 7, 8, 10]
    - Elements greater than or equal to the pivot are pushed into the `right` array.
 4. **Recursive Sorting:** the `quickSort` function is called recursively on both the `left` and `right` arrays to sort them.
 5. **Concatenation:** the sorted array is formed by concatenating the sorted left array, the pivot, and the sorted right array.
+
+## Complexity
+
+- **Time:** Θ(nlogn) / O(n^2)
+- **Memory:** O(n)

@@ -1,5 +1,7 @@
 # Valid Parentheses
 
+## Solution
+
 ```js
 /**
  * Determines if the input string of parentheses is valid.
@@ -62,3 +64,8 @@ console.log("Is valid parentheses? ", isValid(s3)); // Output: true
 4. **Final Check:**
    - After processing all characters, if the stack is empty, it means every opening bracket had a matching closing bracket in the correct order, so the string is valid.
    - If the stack is not empty, some opening brackets were not closed, making the string invalid.
+
+## Complexity
+
+- **Time:** O(n)
+- **Memory:** O(n)
